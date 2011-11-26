@@ -1,3 +1,9 @@
+" ---------------------------------------------------------------
+" Authors:  Ali Vakilzade
+" HomePage: https://bitbucket.org/aliva/vim-toggletoolbar
+" License: VIM License
+" ---------------------------------------------------------------
+
 function! ToggleToolbar()
     if &guioptions =~# "T"
         set guioptions -=T
